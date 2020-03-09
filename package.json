@@ -1,0 +1,31 @@
+{
+  "name": "word-cli-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app/index.js",
+  "preferGlobal": true,
+  "bin": {
+    "dict": "./app/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "word-sideaearch",
+    "word-game",
+    "word-synonyms"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-to-js": "^2.1.1",
+    "colors": "^1.4.0",
+    "commander": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.0.0",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0",
+    "parse-error": "^0.2.0",
+    "strility": "^1.3.1"
+  }
+}
